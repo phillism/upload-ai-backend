@@ -1,0 +1,14 @@
+node_modules
+# Keep environment variables out of version control
+.env
+
+pnpm-lock.json
+*.mp3
+
+prisma/migrations
+*.db
+
+tmp/
+!tmp/.gitkeep
+
+!.env
